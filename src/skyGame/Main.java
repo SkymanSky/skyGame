@@ -22,7 +22,7 @@ public class Main {
 		specialOffer1.setName("Black Fridate");
 		specialOffer1.setDiscountPercentage(0.20);
 		
-		GameManager gameManager = new GameManager(gamer1,specialOffer1);
+		OrderManager gameManager = new OrderManager(gamer1,specialOffer1);
 		gameManager.sell(game1);
 		
 		

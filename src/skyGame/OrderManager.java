@@ -1,11 +1,11 @@
 package skyGame;
 
-public class GameManager {
+public class OrderManager {
 	
 	private Gamer gamer;
 	private SpecialOffer specialOffer;
 	
-	public GameManager(Gamer gamer,SpecialOffer specialOffer){
+	public OrderManager(Gamer gamer,SpecialOffer specialOffer){
 		this.gamer=gamer;
 		this.specialOffer=specialOffer;
 	}
